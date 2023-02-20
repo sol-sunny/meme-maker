@@ -1,0 +1,149 @@
+@import "reset.css";
+
+body {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: gainsboro;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  width: 800px;
+  height: 800px;
+  border-radius: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.colorArea {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.color-option {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: solid 3px white;
+  transition: transform ease-in-out 0.1s;
+}
+
+.color-option:hover {
+  transform: scale(1.2);
+}
+
+#color {
+  background-color: white;
+  border: none;
+}
+
+.btnArea {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+button,
+label {
+  /*button과 label태그에 동일하게 스타일 적용하기*/
+  all: unset;
+  padding: 5px;
+  text-align: center;
+  background-color: #95a5a6;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform ease-in-out 0.1s;
+}
+
+button:hover {
+  opacity: 70%;
+}
+
+input#text {
+  all: unset;
+  padding: 5px;
+  text-align: center;
+  background-color: white;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+input#file {
+  display: none;
+}
+
+.line-width {
+  display: flex;
+  flex-direction: column;
+}
+
+.line-width span {
+  padding: 5px;
+  width: 50px;
+  font-weight: 500;
+  width: 100%;
+}
+
+.line-width input {
+  accent-color: #464646;
+}
+
+.textWidthArea {
+  display: flex;
+  flex-direction: column;
+}
+
+.textWidthArea span {
+  padding: 5px;
+  font-weight: 500;
+}
+.textWidthArea input {
+  accent-color: #464646;
+}
+
+.textStyleArea {
+  display: flex;
+  flex-direction: column;
+}
+
+.textStyleArea span {
+  padding: 5px;
+  font-weight: 500;
+}
+
+.text-custom {
+  border: none;
+  padding: 5px;
+  text-align: center;
+  background-color: white;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 10px;
+  color: #464646;
+  height: 30px;
+}
+
+.text-custom option {
+  color: #464646;
+  font-size: 15px;
+}
+
+#textArea input {
+  color: #464646;
+}

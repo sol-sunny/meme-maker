@@ -2,7 +2,9 @@
 :point_right:그림판
 
 ![meme-meker](./img/meme-maker.PNG)
+
 :clapper: 데모앱: [meme-maker](https://meme-maker-std.netlify.app/)
+
 ## :memo:기능
 + 유저가 pencil-width를 선택해 캔버스에 그림을 그릴 수 있다.
 + Fill버튼을 누르면 캔버스 전체를 원하는 색상으로 채울 수 있다.
